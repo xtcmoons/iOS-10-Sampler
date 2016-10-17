@@ -17,6 +17,15 @@
 		E86C9BD41DB08335003EA077 /* SpeechRecognition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86C9BD31DB08335003EA077 /* SpeechRecognition.storyboard */; };
 		E86C9BD61DB0834B003EA077 /* SpeechRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86C9BD51DB0834B003EA077 /* SpeechRecognitionViewController.swift */; };
 		E86C9BD81DB084C9003EA077 /* SampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86C9BD71DB084C9003EA077 /* SampleTableViewCell.swift */; };
+		E883815F1DB4A07500AA2ADA /* LooperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883815E1DB4A07500AA2ADA /* LooperViewController.swift */; };
+		E88381611DB4A08100AA2ADA /* Looper.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88381601DB4A08100AA2ADA /* Looper.storyboard */; };
+		E88381691DB4A1DB00AA2ADA /* superquest_attack.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E88381671DB4A1DB00AA2ADA /* superquest_attack.mp4 */; };
+		E883816A1DB4A1DB00AA2ADA /* superquest.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E88381681DB4A1DB00AA2ADA /* superquest.mp4 */; };
+		E883816C1DB4A20500AA2ADA /* Looper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883816B1DB4A20500AA2ADA /* Looper.swift */; };
+		E883816F1DB4CC3300AA2ADA /* LivePhotoCapture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E883816E1DB4CC3300AA2ADA /* LivePhotoCapture.storyboard */; };
+		E88381711DB4CC7000AA2ADA /* LivePhotoCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88381701DB4CC7000AA2ADA /* LivePhotoCaptureViewController.swift */; };
+		E88381731DB4CCAB00AA2ADA /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88381721DB4CCAB00AA2ADA /* PreviewView.swift */; };
+		E88381751DB4CDD600AA2ADA /* LivePhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88381741DB4CDD600AA2ADA /* LivePhotoCaptureDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +41,16 @@
 		E86C9BD31DB08335003EA077 /* SpeechRecognition.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SpeechRecognition.storyboard; sourceTree = "<group>"; };
 		E86C9BD51DB0834B003EA077 /* SpeechRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionViewController.swift; sourceTree = "<group>"; };
 		E86C9BD71DB084C9003EA077 /* SampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableViewCell.swift; sourceTree = "<group>"; };
+		E883815E1DB4A07500AA2ADA /* LooperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LooperViewController.swift; sourceTree = "<group>"; };
+		E88381601DB4A08100AA2ADA /* Looper.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Looper.storyboard; sourceTree = "<group>"; };
+		E88381661DB4A1CA00AA2ADA /* superquest_levelup.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = superquest_levelup.m4a; sourceTree = "<group>"; };
+		E88381671DB4A1DB00AA2ADA /* superquest_attack.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = superquest_attack.mp4; sourceTree = "<group>"; };
+		E88381681DB4A1DB00AA2ADA /* superquest.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = superquest.mp4; sourceTree = "<group>"; };
+		E883816B1DB4A20500AA2ADA /* Looper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Looper.swift; sourceTree = "<group>"; };
+		E883816E1DB4CC3300AA2ADA /* LivePhotoCapture.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LivePhotoCapture.storyboard; sourceTree = "<group>"; };
+		E88381701DB4CC7000AA2ADA /* LivePhotoCaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePhotoCaptureViewController.swift; sourceTree = "<group>"; };
+		E88381721DB4CCAB00AA2ADA /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		E88381741DB4CDD600AA2ADA /* LivePhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePhotoCaptureDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +67,7 @@
 		E86C9BAF1DB07857003EA077 = {
 			isa = PBXGroup;
 			children = (
+				E88381621DB4A19900AA2ADA /* Resources */,
 				E86C9BBA1DB07857003EA077 /* iOS-10-Sampler */,
 				E86C9BCD1DB0786D003EA077 /* Samples */,
 				E86C9BB91DB07857003EA077 /* Products */,
@@ -81,6 +101,8 @@
 		E86C9BCD1DB0786D003EA077 /* Samples */ = {
 			isa = PBXGroup;
 			children = (
+				E883815D1DB4A05000AA2ADA /* Looper */,
+				E883816D1DB4CC1500AA2ADA /* LivePhotoCapture */,
 				E86C9BD21DB08324003EA077 /* SpeechRecognition */,
 			);
 			name = Samples;
@@ -94,6 +116,63 @@
 				E86C9BD31DB08335003EA077 /* SpeechRecognition.storyboard */,
 			);
 			name = SpeechRecognition;
+			sourceTree = "<group>";
+		};
+		E883815D1DB4A05000AA2ADA /* Looper */ = {
+			isa = PBXGroup;
+			children = (
+				E883815E1DB4A07500AA2ADA /* LooperViewController.swift */,
+				E88381601DB4A08100AA2ADA /* Looper.storyboard */,
+				E883816B1DB4A20500AA2ADA /* Looper.swift */,
+			);
+			name = Looper;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E88381621DB4A19900AA2ADA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E88381651DB4A1BB00AA2ADA /* sounds */,
+				E88381641DB4A1AE00AA2ADA /* movies */,
+				E88381631DB4A1A300AA2ADA /* network_params */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E88381631DB4A1A300AA2ADA /* network_params */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = network_params;
+			sourceTree = "<group>";
+		};
+		E88381641DB4A1AE00AA2ADA /* movies */ = {
+			isa = PBXGroup;
+			children = (
+				E88381671DB4A1DB00AA2ADA /* superquest_attack.mp4 */,
+				E88381681DB4A1DB00AA2ADA /* superquest.mp4 */,
+			);
+			name = movies;
+			sourceTree = "<group>";
+		};
+		E88381651DB4A1BB00AA2ADA /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E88381661DB4A1CA00AA2ADA /* superquest_levelup.m4a */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		E883816D1DB4CC1500AA2ADA /* LivePhotoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				E883816E1DB4CC3300AA2ADA /* LivePhotoCapture.storyboard */,
+				E88381701DB4CC7000AA2ADA /* LivePhotoCaptureViewController.swift */,
+				E88381721DB4CCAB00AA2ADA /* PreviewView.swift */,
+				E88381741DB4CDD600AA2ADA /* LivePhotoCaptureDelegate.swift */,
+			);
+			name = LivePhotoCapture;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +235,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E883816F1DB4CC3300AA2ADA /* LivePhotoCapture.storyboard in Resources */,
+				E88381611DB4A08100AA2ADA /* Looper.storyboard in Resources */,
+				E883816A1DB4A1DB00AA2ADA /* superquest.mp4 in Resources */,
 				E86C9BD41DB08335003EA077 /* SpeechRecognition.storyboard in Resources */,
 				E86C9BC61DB07857003EA077 /* LaunchScreen.storyboard in Resources */,
 				E86C9BC31DB07857003EA077 /* Assets.xcassets in Resources */,
+				E88381691DB4A1DB00AA2ADA /* superquest_attack.mp4 in Resources */,
 				E86C9BC11DB07857003EA077 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,11 +253,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E883816C1DB4A20500AA2ADA /* Looper.swift in Sources */,
 				E86C9BD61DB0834B003EA077 /* SpeechRecognitionViewController.swift in Sources */,
 				E86C9BD81DB084C9003EA077 /* SampleTableViewCell.swift in Sources */,
 				E86C9BCF1DB078F0003EA077 /* UIViewController+alert.swift in Sources */,
+				E88381711DB4CC7000AA2ADA /* LivePhotoCaptureViewController.swift in Sources */,
+				E88381731DB4CCAB00AA2ADA /* PreviewView.swift in Sources */,
 				E86C9BBE1DB07857003EA077 /* ViewController.swift in Sources */,
+				E88381751DB4CDD600AA2ADA /* LivePhotoCaptureDelegate.swift in Sources */,
 				E86C9BD11DB08170003EA077 /* SampleDataSource.swift in Sources */,
+				E883815F1DB4A07500AA2ADA /* LooperViewController.swift in Sources */,
 				E86C9BBC1DB07857003EA077 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +427,7 @@
 				E86C9BCC1DB07857003EA077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

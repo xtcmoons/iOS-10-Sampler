@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0lj-mE-Wy5">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Looper View Controller-->
+        <scene sceneID="pgu-zw-ubW">
+            <objects>
+                <viewController id="0lj-mE-Wy5" customClass="LooperViewController" customModule="iOS_10_Sampler" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kMZ-pV-mHa"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jy8-Pm-3gu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WVu-bD-aZL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="I45-53-bPF">
+                                <connections>
+                                    <action selector="sliderChanged:" destination="0lj-mE-Wy5" eventType="valueChanged" id="J7s-jz-nZW"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0FG-W3-6PY">
+                                <connections>
+                                    <action selector="sliderChanged:" destination="0lj-mE-Wy5" eventType="valueChanged" id="Rda-6v-DUa"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Jy8-Pm-3gu" firstAttribute="top" secondItem="0FG-W3-6PY" secondAttribute="bottom" constant="20" id="BHN-mP-HBi"/>
+                            <constraint firstAttribute="trailing" secondItem="0FG-W3-6PY" secondAttribute="trailing" constant="20" id="L9p-BM-o1f"/>
+                            <constraint firstItem="Jy8-Pm-3gu" firstAttribute="top" secondItem="I45-53-bPF" secondAttribute="bottom" constant="20" id="TN2-W4-IKt"/>
+                            <constraint firstItem="0FG-W3-6PY" firstAttribute="leading" secondItem="I45-53-bPF" secondAttribute="trailing" constant="20" id="e3m-tT-GHs"/>
+                            <constraint firstItem="I45-53-bPF" firstAttribute="leading" secondItem="WVu-bD-aZL" secondAttribute="leading" constant="20" id="fjK-WM-lgI"/>
+                            <constraint firstItem="0FG-W3-6PY" firstAttribute="width" secondItem="I45-53-bPF" secondAttribute="width" id="xBb-hy-U7e"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="maxSlider" destination="0FG-W3-6PY" id="nFi-bT-6Rw"/>
+                        <outlet property="minSlider" destination="I45-53-bPF" id="UcY-MC-YT5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gi2-bm-TxN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30" y="104"/>
+        </scene>
+    </scenes>
+</document>

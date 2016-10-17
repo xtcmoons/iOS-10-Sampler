@@ -31,7 +31,12 @@ struct SampleDataSource {
         Sampler(title: "Looper",
                 detail: "Loop playback demo using AVPlayerLooper",
                 classPrefix: "Looper"),
-        
+        Sampler(title: "Live Photo Capturing",
+                detail: "Live Photo Capturing example using AVCapting",
+                classPrefix: "LivePhotoCapture"),
+        Sampler(title: "Audio Fade-in/out",
+                detail: "Audio Fade-in/out demo",
+                classPrefix: "AudioFadeInOut"),
     ]
 }
 
